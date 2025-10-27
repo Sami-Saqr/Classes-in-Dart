@@ -1,5 +1,5 @@
-void main(){
-  Human Sami = Human(name: "Sami",age: 25);
+void main() {
+  Human Sami = Human(name: "Sami", age: 25);
 
   print('== Hello Class ==\n   Name: ${Sami.name}\n   Age: ${Sami.age}');
   //Output:
@@ -13,6 +13,5 @@ class Human {
   int? age;
 
   //Basic Constructor
-  Human({this.name,this.age}){
-  }
+  Human({this.name, this.age}) {}
 }
