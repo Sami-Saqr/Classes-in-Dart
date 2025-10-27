@@ -9,12 +9,14 @@ class Animal {
 }
 
 // when we use @override keyword we can change the behavior of the inherited method
+
 class Dog extends Animal {
   @override
+
   void eat() {
     print("Dog is eating");
   }
-
+  
   void bark() {
     print("Dog is barking");
   }
